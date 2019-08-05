@@ -2,4 +2,5 @@
   npm run serve
 
 - Enviroments  
-  port - **default: 80**
+  PORT - **default: 80**
+  SERVE_DIR - **default: dist** Relative path from project root directory

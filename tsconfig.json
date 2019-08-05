@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["dom", "esnext"],
+    "outDir": "./js"
+  },
+  "include": ["./ts/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

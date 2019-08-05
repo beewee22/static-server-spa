@@ -7,6 +7,7 @@
     "dev": "npx ts-node-dev ./ts/index.ts",
     "serve": "npx ts-node ./ts/index.ts",
     "serve-js": "npm run build && node ./js/index.js",
+    "serve-background": "nohup npm run serve > output.log &",
     "build": "npx tsc --build tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

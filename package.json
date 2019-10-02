@@ -4,6 +4,7 @@
   "description": "",
   "main": "./js/index.js",
   "scripts": {
+    "start": "npm run serve-js",
     "dev": "npx ts-node-dev ./ts/index.ts",
     "serve": "npx ts-node ./ts/index.ts",
     "serve-js": "npm run build && node ./js/index.js",
@@ -14,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/koa-helmet": "^3.1.2",
     "koa": "^2.7.0",
     "koa-helmet": "^5.1.0",
     "koa-send": "^5.0.0",
